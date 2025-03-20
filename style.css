@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+.hero{
+  
+    background: rgb(35, 105, 162);
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position:relative
+}
+nav{
+    font-size: 8px;
+    display: flex;
+
+    align-items: center;
+    padding: 0px 31px;
+    background-color: black;
+   
+}
+nav .menu-img{
+    
+    padding: 15px;
+    
+    width: 55px;
+   
+    
+    margin-right:20px;
+    cursor: pointer;
+}
+
+nav.logo{
+    
+    cursor: pointer;
+   
+} 
+.logo{
+    width: 200px;
+}
+nav ul{
+    
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+     display: inline-block; 
+     list-style: none;
+     margin : 0 20px;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    color: black;
+    background-color: gold;
+    border-radius: 22px;
+    border: 2px solid white;
+    position: relative;
+    left: -280px;
+    font-size: 20px;
+}
+
+
+.personalData{
+    font-size: 25px;
+   
+    /* font-style: italic; */
+    color: #fff;
+    margin-top: -18%;
+    margin-left: 3%;
+    background: rgb(35, 105, 162);
+}
+.personalData h1{
+     font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 242, 0);
+}
+.personalData h1 a{
+    padding: 10px;
+}
+.personalData a{
+    color: rgb(255, 8, 0);
+}
+.profilePic img{
+    width: 44vh;
+    position: relative;
+    left: 120vh;
+    top: -6vh;
+}
+
+.My-Present h1{
+    font-family: "Shadows Into Light", cursive;
+ font-weight: 400;
+ font-style: normal;
+ color: rgb(255, 242, 0);
+}
+.My-Present{
+    display: inline-block;
+    /* padding: 50px; */
+    font-size: 19px;
+    position: relative;
+    top: 0vh;
+    padding: 45px
+   
+}
+
+    /* padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;  */
+
+    .box{
+        background-color: var(--clr);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 200px;
+        margin: 10px;
+        border-radius:20px ;
+        box-shadow: 2px 4px 5px rgb(0, 0, 0.3);
+        transform: translateX(400%);
+        transition: transform 0.4s ease;
+        background: rgb(35, 105, 162);
+    }
+    .box h2{
+        font-size: 45px;
+        text-shadow: 2px 2px 3px #000;
+    }
+.boxes{
+    position: relative;
+    left: -95vw;
+    top: -1vh;
+    /* overflow-x: hidden; */
+}
+.red{
+    color: crimson;
+    background-color: aqua;
+
+}
+.blue{
+    color: rgb(11, 243, 188);
+    background-color: red;
+}
+.yellow{
+    color:rgb(166, 255, 0) ;
+    background-color: blue;
+}
+.box.show{
+    transform: translate(0);
+}
+.box:nth-of-type(0){
+    transform: translateX(-100%);
+}
